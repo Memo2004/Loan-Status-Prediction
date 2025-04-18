@@ -6,9 +6,7 @@ A machine learning project to predict whether a loan application will be approve
 
 Loan-Status-Prediction/
 ├── dataset/                # Contains the CSV file used for training  
-├── notebooks/              # Jupyter notebooks for EDA, preprocessing, and modeling  
-├── models/                 # Saved trained models  
-├── src/                    # Source code for training and evaluation  
+├── notebooks/              # Jupyter notebooks for EDA, preprocessing, and modeling   
 └── README.md               # Project overview and documentation
 
 ## 📌 Objective
