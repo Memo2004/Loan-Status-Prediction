@@ -4,8 +4,10 @@ import pickle
 import os
 from pathlib import Path
 
+
+project_root = Path(__file__).parent  
+model_path = project_root / 'best_model_bagging.pkl'
 # Load the trained model
-model_path = Path(__file__).parent / 'best_model_bagging.pkl'
 with open(model_path, 'rb') as f:
     model = pickle.load(f)
 
