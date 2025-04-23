@@ -7,6 +7,7 @@ A machine learning project to predict whether a loan application will be approve
 Loan-Status-Prediction/
 ├── dataset/                # Contains the CSV file used for training  
 ├── notebooks/              # Jupyter notebooks for EDA, preprocessing, and modeling   
+├── src/                    # streamlit UI
 └── README.md               # Project overview and documentation
 
 ## 📌 Objective
@@ -21,7 +22,7 @@ This can help financial institutions to automate and speed up the loan approval 
 - **Features**:
   - `Gender`, `Married`, `Education`, `Self_Employed`
   - `ApplicantIncome`, `CoapplicantIncome`, `LoanAmount`, `Loan_Amount_Term`
-  - `Credit_History`, `Property_Area`, `Loan_Status`
+  - `Credit_History`, `Loan_Status`
 
 ## 📊 Exploratory Data Analysis (EDA)
 
@@ -51,13 +52,16 @@ This can help financial institutions to automate and speed up the loan approval 
 | Model                        | Accuracy (%) |
 |------------------------------|--------------|
 | Logistic Regression          | 85.80        |
-| Bagging                      | 86.45        |
+| Bagging                      | 87.45        |
 | Gradient Boosting            | 85.80        |
 | Random Forest                | 85.80        |
-| Support Vector Machine (SVM) | 87.09        |
 | K-Nearest Neighbors (KNN)    | 85.80        |
 | XGB                          | 85.80        |
 | Decision Tree                | 80.64        |
+
+## Loan Status Prediction App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your_streamlit_app_link_here)
 
 ## 🛠️ How to Run
 
