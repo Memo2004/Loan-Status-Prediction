@@ -61,7 +61,7 @@ This can help financial institutions to automate and speed up the loan approval 
 
 ## Loan Status Prediction App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your_streamlit_app_link_here)
+[UI - Streamlit APP ](https://memo2004-loan-status-prediction-app-kxaszu.streamlit.app/)  
 
 ## 🛠️ How to Run
 
