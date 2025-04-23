@@ -1,10 +1,14 @@
 import streamlit as st
 import numpy as np
 import pickle
+import os
+
 
 # Load the trained model
-with open(r'C:\Users\hp\Downloads\ML\Projects\Loan Status Prediction\best_model_svc.pkl', 'rb') as f:
-    model = pickle.load(f)
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+model_path = os.path.join(BASE_DIR, "Loan Status Prediction", "best_model_svc.pkl")
+model = pickle.load(open(model_path, 'rb'))
 
 st.set_page_config(page_title="Loan Prediction App", layout="centered")
 
