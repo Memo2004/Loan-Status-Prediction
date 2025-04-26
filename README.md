@@ -47,7 +47,7 @@ This can help financial institutions to automate and speed up the loan approval 
 - Confusion Matrix  
 - Classification Report (Precision, Recall, F1-Score)
 
-## 🚀 Results
+##  Results In Tranning
 
 | Model                        | Accuracy (%) |
 |------------------------------|--------------|
@@ -58,6 +58,8 @@ This can help financial institutions to automate and speed up the loan approval 
 | K-Nearest Neighbors (KNN)    | 85.80        |
 | XGB                          | 85.80        |
 | Decision Tree                | 80.64        |
+
+## 🚀 The best model for accuracy score is BaggingClassifier: 91.49%
 
 ## Loan Status Prediction App
 
